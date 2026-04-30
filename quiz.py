@@ -9,6 +9,7 @@ if age >= 14:
 if age <= 7:
   print("Sorry you aren't in the right age group for this quiz")
 
+#all instructions
 else:
  time.sleep(2)
  print("Welcome to this quiz you are going to be ask 3 qustions")
@@ -25,6 +26,8 @@ else:
 print()
 sumbit = input ("write anything to say you understand ")
 print()
+
+
 question = ["Q1 Someone sends you a text that is hurtful and makes you feel bad about yourself."]
 answer = []
 for q in question :
