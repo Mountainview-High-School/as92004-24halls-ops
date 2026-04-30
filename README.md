@@ -4,7 +4,15 @@
 Fill out the following information.
 
 Assessment Standard Number: 
+Name: sophie
+NSN: 0147258786
 
+[✓ ] I agree to abide by the assessment conditions for this assignment as explained by my teacher
+[✓ ] I have read and understand the instructions for the assessment.
+[ ✓] I agree to communicate any queries I have about this assessment to my teacher by email or as a comment on the assessment as soon as possible.  
+[✓ ] I agree to commit and push changes regularly to my repository on Github so my teacher can review my work
+[✓ ] I understand that any work contained or linked in this repository is the work I will be assessed on. Any files outside of this repository will not be used for assessment. 
+Date started:22/04/2026
 Date submitted:
 
 # Accompanying documents
