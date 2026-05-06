@@ -28,11 +28,13 @@ sumbit = input ("write anything to say you understand ")
 print()
 
 
-question = ["Q1 Someone sends you a text that is hurtful and makes you feel bad about yourself."]
-answer = []
-for q in question :
- answer = input ("they")
-
+question = ["Q1 Someone sends you a text that is hurtful and makes you feel bad about yourself. "
+"A.Delete the message and try to forget about it "
+"B.Keep the text and how an adult you trust"
+"C.Text the person back saying something mean to them"]
+correct_answer = ["B"]
+for i in question :
+ answer = input ()
 
 
 
