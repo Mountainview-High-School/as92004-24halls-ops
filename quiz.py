@@ -53,8 +53,10 @@ while i < len(question):
  time.sleep(1)
  i += 4
  
- if correct_answer == "B":
-   print("your score is now 1") 
+guess = 0
+guesses = 1
+while guess != question:
+    guesses += 1
  
  
  #2nd question
