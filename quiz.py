@@ -52,15 +52,8 @@ while i < len(question):
  print(correct_answer[int(i/4)])
  time.sleep(1)
  i += 4
- 
-guess = 0
-guesses = 1
-while guess != question:
-    guesses += 1
- 
- 
- #2nd question
-# print()
+
+
 # print(question[i+4])
 #time.sleep(1)
 #print(question[i+5])
@@ -69,9 +62,8 @@ while guess != question:
 #time.sleep(1)
 #print(question[i+7])
 #answer = input ("")
-
-
-
-
 # 0 1 2 3 4 5 6 7 8 9 10
+
+
+
 
