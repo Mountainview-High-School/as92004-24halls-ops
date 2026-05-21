@@ -38,6 +38,10 @@ question = ["Q1 Someone sends you a text that is hurtful and makes you feel bad 
 "A. A Nickname",
 "B. Your name",
 "C. Email address"]
+
+tries = 0
+score = 0
+
 correct_answer = ["B","C","A"]
 i = 0
 while i < len(question):
@@ -53,6 +57,8 @@ while i < len(question):
  time.sleep(1)
  i += 4
 
+if answer == correct_answer:
+  print(1)
 
 # print(question[i+4])
 #time.sleep(1)
