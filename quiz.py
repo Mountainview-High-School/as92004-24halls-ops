@@ -57,8 +57,8 @@ while i < len(question):
  time.sleep(1)
  i += 4
 
-if answer == correct_answer:
-  print(1)
+if answer == "correct_answer":
+  print("as")
 
 # print(question[i+4])
 #time.sleep(1)
