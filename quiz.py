@@ -39,7 +39,7 @@ question = ["Q1 Someone sends you a text that is hurtful and makes you feel bad 
 "B. Your name",
 "C. Email address"]
 
-tries = 0
+
 score = 0
 
 correct_answer = ["B","C","A"]
@@ -52,13 +52,21 @@ while i < len(question):
  print(question[i+2])
  time.sleep(1)
  print(question[i+3])
+ 
+ 
+ tries = 0
+ 
  answer = input ("")
+ if answer == correct_answer[int(i/4)]:
+   score += 1
+ 
+ 
  print(correct_answer[int(i/4)])
+ print(score)
+ 
  time.sleep(1)
  i += 4
 
-if answer == "correct_answer":
-  print("as")
 
 # print(question[i+4])
 #time.sleep(1)
